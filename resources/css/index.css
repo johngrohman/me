@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1300px) {
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        font-family: Andale Mono, monospace;
+    }
+    
+    nav {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        box-shadow: 0px 0px 16px 0px #424242;
+        backdrop-filter: blur(2px);
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+    }
+    
+    nav ul {
+        list-style: none;
+        
+    }
+    
+    nav li {
+        display:inline;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: gray;
+        padding-right: 1%;
+        padding-left: 1%;
+        opacity: 1;
+        
+    }
+    
+    nav a:hover {
+        color: white;
+        text-shadow: 0px 0px 10px gray;
+        transition: .3s;
+    }
+    
+    #key {
+        position: fixed;
+        margin-top: 15px;
+        font-size: 16px;
+        left: 1%;
+    }
+    
+    #icon {
+        float: right;
+        padding-right: 17px;
+        padding-top: 9px;
+    }
+
+
+    img#profile_picture {
+        float: right;
+        margin-right: 100px;
+        box-shadow: 0px 0px 20px 10px rgba(59, 59, 59, 0.356);
+        margin-top: 35%;
+    }
+    
+    div#parent {
+        height: 100%;
+    }
+    
+    div#child {
+        float: left;
+        width: 50%;
+        height: 100%;
+        min-width: 600px;
+    }
+    
+    div#text {
+        float: left;
+        color: white;
+        text-align: left;
+        margin-top: 40%;
+        width: 70%;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+embed {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1300px) {
+    html body {
+        font-family: Andale Mono, monospace;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    p#key {
+        display: none;
+    }
+    nav {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        box-shadow: 0px 0px 16px 0px #424242;
+        backdrop-filter: blur(2px);
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 100px;
+        font-size: 40px;
+    }
+    nav ul {
+        margin-top: 20px;
+        list-style: none;
+    }
+    
+    nav li {
+        display:inline;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: gray;
+        padding-right: 4%;
+        padding-left: 4%;
+        opacity: 1;
+    }
+    
+    nav a:hover {
+        color: white;
+        text-shadow: 0px 0px 10px gray;
+        transition: .3s;
+    }
+    #icon {
+        display: none;
+    }
+    #parent {
+        text-align: center;
+        padding-top: 15%;
+    }
+    #profile_picture {
+        box-shadow: 0px 0px 20px 10px rgba(59, 59, 59, 0.356);
+        width: 50%;
+    }
+    p {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
