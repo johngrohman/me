@@ -3,15 +3,18 @@
     html, body {
         height: 100%;
         margin: 0;
-        background-color: #189AB4;
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
         font-family: Andale Mono, monospace;
     }
     
     nav {
         text-align: center;
-        background-color: #05445E;
+        background-color: #777777;
+        box-shadow: 1px 1px 20px 5px rgb(62, 62, 62);
+        opacity: .8;
         color: white;
-        box-shadow: 0px 0px 16px 0px #424242;
         position: fixed;
         top: 0px;
         right: 0px;
@@ -37,7 +40,7 @@
     }
     
     nav a:hover {
-        color: gray;
+        color: rgb(177, 177, 177);
         transition: .3s;
     }
     
@@ -53,16 +56,32 @@
         padding-right: 17px;
         padding-top: 9px;
     }
-
+    #container {
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 1px 1px 20px 5px rgb(50, 50, 50);
+        backdrop-filter: blur(10px);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        width: 40%;
+        padding: 20px;
+        position: relative;
+        top: 25%;
+        border-radius: 15px;
+        display: flex
+    }
 
     img#profile_picture {
-        float: right;
+        float: left;
         margin-right: 100px;
         box-shadow: 0px 0px 20px 10px rgba(59, 59, 59, 0.356);
         margin-top: 35%;
     }
-    
-   
+
+    div#text {
+        /* flex-basis: 47%; */
+        font-size: 19px;
+    }
 }
 
 embed {
@@ -112,12 +131,7 @@ embed {
         padding-left: 4%;
         opacity: 1;
     }
-    
-    nav a:hover {
-        color: white;
-        text-shadow: 0px 0px 10px gray;
-        transition: .3s;
-    }
+
     #icon {
         display: none;
     }
