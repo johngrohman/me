@@ -103,6 +103,7 @@ embed {
         margin: 0;
         background-image: url(../images/background.jpg);
         background-size: cover;
+        background-color: #030711;
         background-repeat: no-repeat;
         font-family: Andale Mono, monospace;
         font-size: 30px;
