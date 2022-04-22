@@ -1,2 +1,2 @@
 ### Portfolio Website
-code published at: https://namedotjpg.github.io/me/
+code published at: https://johngrohman.github.io/me/
